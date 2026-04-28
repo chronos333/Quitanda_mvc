@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Quitanda MVC</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <h1>Quitanda MVC</h1>
+
+   <!-- Cadastra produto  -->
+    <div class="box">
+      <h2>Cadastrar Produto</h2>
+      <input id="nome" placeholder="Nome">
+      <input id="preco" type="number" placeholder="Preço">
+      <input id="quantidade" type="number" placeholder="Quantidade">
+      <button id="btnAdd">Adicionar</button>
+    </div>
+
+    <!-- Entrada de Estoque -->
+    <div class="box">
+      <h2>Entrada de Estoque</h2>
+      <input id="nomeEntrada" placeholder="Nome do Produto">
+      <input id="quantidadeEntrada" type="number" placeholder="Quantidade">
+      <button id="btnEntrada">Registrar Entrada</button>
+    </div>
+
+    <!-- Venda -->
+    <div class="box">
+      <h2>Venda</h2>
+      <input id="nomeVenda" placeholder="Nome do Produto">
+      <input id="quantidadeVenda" type="number" placeholder="Quantidade">
+      <button id="btnVenda">Vender</button>
+    </div>
+
+    <!-- Produtos em Estoque -->
+    <div class="box">
+      <h2>Produtos em Estoque</h2>
+      <ul id="lista"></ul>
+    </div>
+
+    <!-- Histórico -->
+    <div class="box">
+      <h2>Histórico de Movimentações</h2>
+      <ul id="historico"></ul>
+    </div>
+
+  </div>
+
+  <script type="module" src="main.js"></script>
+</body>
+</html>
