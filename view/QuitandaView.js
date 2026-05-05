@@ -5,9 +5,9 @@ export class QuitandaView {
 
 
     // CAMPOS DE CADASTRO
-    this.nome = document.getElementById("nome");               // Input nome do produto
-    this.preco = document.getElementById("preco");             // Input preço
-    this.quantidade = document.getElementById("quantidade");   // Input quantidade inicial
+    this.nome = document.getElementById("nome");               
+    this.preco = document.getElementById("preco");            
+    this.quantidade = document.getElementById("quantidade");   
 
 
     // CAMPOS DE ENTRADA DE ESTOQUE
@@ -18,19 +18,19 @@ export class QuitandaView {
 
 
     // CAMPOS DE VENDA
-    this.nomeVenda = document.getElementById("nomeVenda");           // Nome do produto
-    this.quantidadeVenda = document.getElementById("quantidadeVenda"); // Quantidade a vender
+    this.nomeVenda = document.getElementById("nomeVenda");          
+    this.quantidadeVenda = document.getElementById("quantidadeVenda"); 
 
 
     // LISTAS (onde os dados aparecem)
-    this.lista = document.getElementById("lista");         // Lista de produtos
-    this.historico = document.getElementById("historico"); // Lista de movimentações
+    this.lista = document.getElementById("lista");        
+    this.historico = document.getElementById("historico"); 
 
 
     // BOTÕES
-    this.btnAdd = document.getElementById("btnAdd");         // Botão adicionar produto
-    this.btnEntrada = document.getElementById("btnEntrada"); // Botão entrada estoque
-    this.btnVenda = document.getElementById("btnVenda");     // Botão vender produto
+    this.btnAdd = document.getElementById("btnAdd");         
+    this.btnEntrada = document.getElementById("btnEntrada"); 
+    this.btnVenda = document.getElementById("btnVenda");    
   }
 
 
@@ -48,7 +48,7 @@ export class QuitandaView {
       return;
     }
 
-    // Cria um <li> para cada produto
+    // Cria um lista dinamica para cada produto
     produtos.forEach(produto => {
       const li = document.createElement("li");
 
@@ -74,7 +74,7 @@ export class QuitandaView {
       return;
     }
 
-    // Cria um <li> para cada movimentação
+    // Cria um lista dinamica para cada movimentação
     movs.forEach(mov => {
       const li = document.createElement("li");
 
