@@ -3,47 +3,47 @@ export class QuitandaView {
 
   constructor() {
 
-    // =========================
+
     // CAMPOS DE CADASTRO
-    // =========================
+
 
     this.nome = document.getElementById("nome");               // Input nome do produto
     this.preco = document.getElementById("preco");             // Input preço
     this.quantidade = document.getElementById("quantidade");   // Input quantidade inicial
 
-    // =========================
+
     // CAMPOS DE ENTRADA DE ESTOQUE
-    // =========================
+
 
     this.nomeEntrada = document.getElementById("nomeEntrada");           // Nome do produto
     this.quantidadeEntrada = document.getElementById("quantidadeEntrada"); // Quantidade a adicionar
 
-    // =========================
+
     // CAMPOS DE VENDA
-    // =========================
+
 
     this.nomeVenda = document.getElementById("nomeVenda");           // Nome do produto
     this.quantidadeVenda = document.getElementById("quantidadeVenda"); // Quantidade a vender
 
-    // =========================
+
     // LISTAS (onde os dados aparecem)
-    // =========================
+
 
     this.lista = document.getElementById("lista");         // Lista de produtos
     this.historico = document.getElementById("historico"); // Lista de movimentações
 
-    // =========================
+
     // BOTÕES
-    // =========================
+
 
     this.btnAdd = document.getElementById("btnAdd");         // Botão adicionar produto
     this.btnEntrada = document.getElementById("btnEntrada"); // Botão entrada estoque
     this.btnVenda = document.getElementById("btnVenda");     // Botão vender produto
   }
 
-  // =========================
+
   // RENDERIZA LISTA DE PRODUTOS
-  // =========================
+
   renderProdutos(produtos) {
 
     // Limpa a lista antes de atualizar
@@ -68,9 +68,9 @@ export class QuitandaView {
     });
   }
 
-  // =========================
+
   // RENDERIZA HISTÓRICO
-  // =========================
+
   renderHistorico(movs) {
 
     // Limpa lista antes de atualizar
@@ -95,9 +95,9 @@ export class QuitandaView {
     });
   }
 
-  // =========================
+
   // LIMPA CAMPOS DOS FORMULÁRIOS
-  // =========================
+
   limparCampos(secao) {
 
     // Limpa formulário de cadastro
@@ -118,9 +118,9 @@ export class QuitandaView {
     }
   }
 
-  // =========================
+
   // MOSTRA ERRO
-  // =========================
+
   mostrarErro(msg) {
     alert(msg); // Exibe mensagem simples
   }
