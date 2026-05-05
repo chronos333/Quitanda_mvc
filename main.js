@@ -7,7 +7,7 @@ import { QuitandaView } from "./view/QuitandaView.js";
 // Importa o Controller (faz a ligação entre Model e View)
 import { QuitandaController } from "./controller/QuitandaController.js";
 
-// INSTÂNCIAS DO MVC
+//Metodo MVC
 
 // Cria o Model (onde ficam os dados)
 const model = new QuitandaModel();
