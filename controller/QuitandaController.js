@@ -3,7 +3,7 @@ import { QuitandaModel } from "../model/QuitandaModel.js";
 
 // Importa a View (responsável pela interface e exibição)
 import { QuitandaView } from "../view/QuitandaView.js";
-
+ 
 // Controller: faz a ponte entre Model e View
 export class QuitandaController {
 
@@ -12,7 +12,7 @@ export class QuitandaController {
     this.model = model;
     this.view = view;
   }
-
+  
   // Inicializa o sistema
   init() {
 

@@ -19,7 +19,7 @@ Este Documento descreve os requisitos do sistema **Quitanda MVC**, com o objetiv
 * padrionizar entendimentos entre os stakeholders
 * servir como base para desenvolvimento e teste
 
----
+--- 
 
 ### 1.2 Escopo
 

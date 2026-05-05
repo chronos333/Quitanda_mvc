@@ -22,3 +22,4 @@ const controller = new QuitandaController(model, view);
 
 // Inicia o sistema (define eventos e renderiza a tela)
 controller.init();
+ 

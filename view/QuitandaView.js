@@ -8,7 +8,7 @@ export class QuitandaView {
     this.nome = document.getElementById("nome");               
     this.preco = document.getElementById("preco");            
     this.quantidade = document.getElementById("quantidade");   
-
+ 
 
     // CAMPOS DE ENTRADA DE ESTOQUE
 
