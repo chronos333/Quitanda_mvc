@@ -6,7 +6,7 @@ export class QuitandaModel {
     this.produtos = [];        // Lista de produtos
     this.movimentacoes = [];   // Histórico de entradas e vendas
   } 
-
+ 
   // Adiciona um novo produto
   adicionar(nome, preco, qtd) {
 
