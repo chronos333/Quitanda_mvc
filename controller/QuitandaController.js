@@ -12,7 +12,7 @@ export class QuitandaController {
     this.model = model;
     this.view = view;
   }
-  
+   
   // Inicializa o sistema
   init() {
 
